@@ -14,3 +14,15 @@ Sintam-se à vontade para sugerir alterações, participar dos code reviews, sub
 ### IMPORTANTE
 
 Cuidado com o _tom_ nos comentários em pull requests e textos nos desafios, _respeito_ acima de tudo;
+
+### NOVOS DESAFIOS
+
+Para incluir um novo desafio, siga o padrão estabelecido no repositório:
+
+1. Classifique dentre das categorias disponíveis (atualmente: frontend e backend);
+2. Faça o fork do projeto e crie uma branch com seu-usuario-git/nome-do-desafio;
+3. Crie uma pasta com o nome do desafio em português e adicione os arquivos iniciais.
+4. Inclua um `README.md` com os detalhes: nível de dificuldade, objetivos e como enviar o desafio;
+5. Abra uma Pull Request da sua branch para main, descreva as alterações e anexe um screenshot caso faça sentido.
+
+Qualquer outra alteração no repositório também deve seguir o padrão de branch e arquivos.

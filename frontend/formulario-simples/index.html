@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de cadastro</title>
+    <style>
+      .form-control {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin-bottom: 1rem;
+      }
+
+      input {
+        border-radius: 8px;
+        height: 2rem;
+        margin-top: 0.3rem;
+      }
+
+      button {
+        border-radius: 8px;
+        height: 2rem;
+        width: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cadastre-se para ter receber nossa newsletter:</h1>
+    <form>
+      <div class="form-control">
+        <label>Nome completo</label>
+        <input type="text" placeholder="Digite aqui" />
+      </div>
+
+      <div class="form-control">
+        <label>E-mail</label>
+        <input placeholder="Digite aqui" />
+      </div>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Array-to-string</title>
+</head>
+
+</html>
+
+<script>
+    //abrir o console para verificar a execução da função//
+
+    var array = []; //inicia a variável
+    var texto = ""; //inicia a variável texto que receberá os índices do array
+
+    function arrayParaString(array) {
+
+        //verifica se é  um array e imprime no console
+        console.log("True se for um array: " + Array.isArray(array));
+
+        //mostra o array inserido como parâmetro da função
+        console.log("O array é: " + array);
+
+        //loop para concatenar os índices do array na string texto
+        for (var i = 0; i < array.length; i++) {
+
+            //não coloca vírgula no último item
+            if (i + 1 == array.length) {
+                texto = texto + i;
+            } else {
+                //separa os índices por vírgula
+                texto = texto + i + ",";
+            }
+        }
+
+        console.log("Os índices do array são: " + texto); //imprime a string texto que contém os índices do array
+
+        console.log(typeof (texto)); //comprova que a variável texto é uma string
+
+    }
+
+    arrayParaString([1, 2, 3, "a", "b", "c"]);//chama a função com o array entre [], parâmetro da função.
+</script>
